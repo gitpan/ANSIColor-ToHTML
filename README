@@ -1,0 +1,17 @@
+ToHTML
+======
+
+'Create colored HTML from ANSI color description'
+
+
+INSTALLATION
+------------
+
+To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+

@@ -1,0 +1,28 @@
+---
+abstract: 'Create colored HTML from ANSI color description'
+author:
+  - 'Nadim ibn hamouda el Khemir. <nkh@cpan.org>'
+build_requires:
+  Test::Block: 0
+  Test::Exception: 0
+  Test::NoWarnings: 0
+  Test::Warn: 0
+  Text::Diff: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ANSIColor-ToHTML
+provides:
+  ANSIColor::ToHTML:
+    file: lib/ANSIColor/ToHTML.pm
+    version: 0.01
+requires:
+  Readonly: 0
+  Sub::Exporter: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
